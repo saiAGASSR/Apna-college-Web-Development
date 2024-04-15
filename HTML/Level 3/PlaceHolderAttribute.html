@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceHolderAttribute</title>
+</head>
+<body>
+    <Form action="/Action">
+
+        <button>Hello</button>
+
+            <!-- triggerning the Element on clicking the text -->
+            <label >
+                Username
+                <input type="text" name="" id="" placeholder="Enter Somethng here">
+
+            </label>
+            <br>
+
+            <label >
+                Password
+                <input type="password"  placeholder="Enter Your Password">
+            </label>
+
+            <br>
+            <!-- Label Classical Approach using for and id attributes -->
+            <!-- id is unique name given to elements  -->
+            <label for="username">Enter Your Username</label>
+            <input type="text" name="username" id="username">
+
+            <br>
+            <label for="password"> Enter your Paasword</label>
+
+            <input type="password" name="" id="password" placeholder="Enter your pass">
+
+            <!-- Div -->
+            <div>
+                <label for="username">Enter Your Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+
+            <div>
+                <label for="password"> Enter your Paasword</label>
+                <input type="password" name="" id="password" placeholder="Enter your pass">
+            </div>
+
+            <div>
+                <label for="age">Enter Your age</label>
+                <input type="number" name="" id="age" placeholder=" Age" > 
+            </div>
+
+            <div>
+                <label for="matureAge">I am 18 +</label>
+                <input type="checkbox" name="matureAge" id="matureAge" checked>
+            </div>
+
+            <div>
+                <label for="matureAge1">I am 18 +</label>
+                <input type="checkbox" name="matureAge1" id="matureAge1" >
+            </div>
+
+            <div>
+                <p>Select on of the frits:</p>
+
+                <input type="radio" name="fruit" id="apple" value="apple">
+                <label for="apple">Apple</label>
+
+                <input type="radio" name="fruit" id="banana" value="banana">
+                <label for="banana" > banana</label>
+                
+                <input type="radio" name="fruit" id="mango">
+                <label for="mango">mango</label>
+
+            </div>
+
+            
+            <div>
+                <p>Select on of the frits</p>
+
+                <input type="radio" name="fruit1" id="apple" value="apple">
+                <label for="apple">Apple</label>
+
+                <input type="radio" name="fruit2" id="banana" value="banana">
+                <label for="banana" > banana</label>
+                
+                <input type="radio" name="fruit3" id="mango">
+                <label for="mango">mango</label>
+
+            </div>
+
+            <div>
+                <p>Choose your fav subjects</p>
+
+                    <input type="checkbox" name="Sub" id="maths" value="maths">
+                    <label for="maths">Mathematics</label>
+
+                    <input type="checkbox" name="Sub" id="Eng" value="Eng" > 
+                    <label for="Eng">English</label>
+
+                    <input type="checkbox" name="Sub" id="Soc" value="Soc">
+                    <label for="Soc">Social</label>
+
+
+            </div>
+
+            <div>
+                <p>Choose your fav subjects</p>
+
+                    <input type="checkbox" name="Sub1" id="maths" value="maths">
+                    <label for="maths">Mathematics</label>
+
+                    <input type="checkbox" name="Sub2" id="Eng" value="Eng" > 
+                    <label for="Eng">English</label>
+
+                    <input type="checkbox" name="Sub3" id="Soc" value="Soc">
+                    <label for="Soc">Social</label>
+
+
+            </div>
+
+            <div>
+                choose your profession
+                <select name="Role" id="Role">
+                    <option value="Dev">Developer</option>
+                    <option value="Triage">Triage</option>
+                    <option value="Tester">Tester</option>
+                    <option value="Architect">Architect</option>
+                    <option value="CEO">CEO</option>
+                </select>
+            </div>
+
+            <div>
+                choose your profession
+                <select name="Role" id="Role">
+                    <option value="none">None</option>
+                    <option value="Dev">Developer</option>
+                    <option value="Triage">Triage</option>
+                    <option value="Tester">Tester</option>
+                    <option value="Architect">Architect</option>
+                    <option value="CEO">CEO</option>
+                </select>
+            </div>
+
+            <div>
+                choose your profession
+                <select name="Role" id="Role">
+                    <option >Select your profession</option>
+                    <option value="Dev">Developer</option>
+                    <option value="Triage">Triage</option>
+                    <option value="Tester">Tester</option>
+                    <option value="Architect">Architect</option>
+                    <option value="CEO">CEO</option>
+                </select>
+            </div>
+
+            <div>
+                choose your profession
+                <select name="Role" id="Role">
+                    <option >Select your profession</option>
+                    <option value="Dev" selected >Developer</option>
+                    <option value="Triage">Triage</option>
+                    <option value="Tester">Tester</option>
+                    <option value="Architect">Architect</option>
+                    <option value="CEO">CEO</option>
+                </select>
+            </div>
+
+            <div>
+                select your volume level
+                <input type="range" min="0"  max="100" name="rank" id="rank" step="10" value="40">
+            </div>
+
+            <div>
+                <label for="feedback">Please tell us your eexperence with us</label>
+                <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Give your feedback"></textarea>
+            </div>
+
+            <button>Submit normal by default inside form</button>
+            <br>
+            <button type="reset" >Reset</button>
+            <button type="submit"> Hello Type submit</button>
+            <button type="button">hello type button </button>
+
+            <button>Hello</button>
+            <!-- Bydefault in form all button default behaviour is  data tranferring all the data in form inside the form -->
+            <input type="button" name="" id="">
+            <input type="button" name="" id="" value="Clickme">
+
+            <input type="submit" name="" id="">
+    </Form>
+    <button>Hello</button>
+    <Button type="submit">Submit</Button>
+
+
+
+
+</body>
+</html>

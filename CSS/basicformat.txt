@@ -1,0 +1,15 @@
+Basic Format -{
+
+
+
+}
+
+h1 - selector {
+
+
+color - property : red  - value;  semicolon at last always 
+
+
+}
+
+MDN CSS
