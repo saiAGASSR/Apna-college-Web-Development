@@ -1,0 +1,26 @@
+
+h2{
+    color: orange;
+}
+h3{
+    color: red;
+    background-color: blue;
+}
+
+h4{
+    color: aqua;
+}
+
+p{
+    color: white;
+    background-color: black;
+
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
+h5{
+    background-color: aliceblue;
+}
