@@ -1,0 +1,45 @@
+#maintopic{
+    color: blue;
+}
+
+*{
+    text-align: center;
+    
+}
+
+h1,h2,h3 {
+    font-family: Georgia;
+}
+
+/* h3+p{
+    background-color: cornflowerblue;
+    color: white;
+} */
+
+.content{
+    background-color: cornflowerblue;
+    color: white;
+}
+div button {
+    background-color: purple;
+    color:azure;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked+label{
+    color: rebeccapurple;
+}
+
+/* Maincontent >div.main > .main >h1 */
