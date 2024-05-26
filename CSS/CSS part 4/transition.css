@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    /* transition: 2s; */
+    /* transition-duration: 1s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: steps(); */
+    margin-top: 10px;
+    margin: 0 auto;
+    /* transition: margin-top 2s  ease-in 2s; */
+    /* transition: border-radius 2s ease 0.2s; */
+    transition: margin-top 2s  ease 2s ,
+                border-radius 2s ease 0.2s, 
+                background-color 2s ease 0.2s,
+                transform 2s ease 0.2s; 
+                
+}
+
+div:hover{
+    /* background-color: black; */
+    border-radius: 50%;
+    margin-top: 100px;
+    background-color: black;
+    rotate: 45deg;
+}
