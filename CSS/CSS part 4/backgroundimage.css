@@ -1,0 +1,12 @@
+#background{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin: 50px auto;
+    /* background-image: url(back.jpg); */
+    background-image: url(back.jpg);
+    /* background-size: contain; */
+    /* background-size: auto; */
+    background-size: cover;
+    color: white;
+}
