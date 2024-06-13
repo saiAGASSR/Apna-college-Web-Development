@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoadingAnimation</title>
+</head>
+<style>
+    /* #outer{
+        height:400px;
+        width: 400px;
+        border-radius: 50%;
+
+    }
+
+    #inner{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+
+        
+    } */
+    
+    @keyframes Loading {
+
+        0%{
+            transform: rotate(0deg);
+        }
+
+        100%{
+            transform: rotate(360deg);
+        }
+
+        
+    }
+
+    .loader{
+        height: 300px;
+        width: 300px;
+        border: 16px solid #f3f3f3;
+        border-top: 16px solid goldenrod;
+        border-radius: 50%;
+        animation: Loading 2s linear infinite ;
+        
+    }
+
+
+</style>
+<body>
+
+    <H1> <b>Loader</b> </H1>
+
+    <div class="loader"> </div>
+
+    <!-- <div id="outer">
+
+        <div id="inner">
+
+        </div>
+
+    </div> -->
+
+    
+</body>
+</html>

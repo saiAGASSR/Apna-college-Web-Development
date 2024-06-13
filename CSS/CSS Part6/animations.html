@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    /* @keyframes fontanimation{
+        from {            
+            font-size: 10px;  
+            background-color: gold;
+            color: #000;
+            width: 100px;
+        }
+        to  {           
+            font-size: 40px;
+            background-color: brown;
+            color: aqua;
+            width: 400px;
+        }       
+    } */
+    @keyframes fontanimation{
+        0% {            
+            font-size: 10px;  
+            background-color: gold;
+            color: #000;
+            width: 100px;
+        }
+        50%  {           
+            font-size: 40px;
+            background-color: brown;
+            color: aqua;
+            width: 200px;
+        }  
+        
+        100%{
+            font-size: 30px;  
+            background-color: rgb(155, 155, 232);
+            color: #c61111;
+            width: 400px;
+            border-radius:20px;
+        }
+    }
+
+    #anime{
+        height: 200px;
+        width: 400px;
+        background-color: violet;
+        animation-name:fontanimation ;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        /* animation-iteration-count: 4; */
+        animation-iteration-count: infinite;
+        /* animation-direction: reverse; */
+        animation-direction: alternate;
+
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        
+    }
+
+    
+    
+
+</style>
+<body>
+
+    <h1>Animations</h1>
+
+    <div id="anime">
+
+        Animating font
+
+    </div>
+    
+</body>
+</html>
